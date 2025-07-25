@@ -149,8 +149,8 @@ st.download_button(
     mime="text/csv"
 )
 
-else:
-    st.info("Silakan upload file pengaduan terlebih dahulu (format CSV/XLSX).")
+    else:
+        st.info("Silakan upload file pengaduan terlebih dahulu (format CSV/XLSX).")
 
 st.markdown("---")
 st.caption("Developed by Irfan Karim • Powered by AI Auto-Labeling | Streamlit UI v4")
