@@ -14,17 +14,17 @@ import re
 
 st.set_page_config(page_title="Customer Service Analytic Playground", layout="wide")
 
-# st.markdown("""
-#     <style>
-#         .centered-title {text-align: center; font-size: 2.1em; font-weight: bold; padding-bottom: 0.2em;}
-#         .disclaimer {text-align: center; color: #f2bc4c; font-size: 1.05em; padding-bottom: 1.5em;}
-#     </style>
-#     <div class="centered-title">📊 Customer Service Analytic Playground</div>
-#     <div class="disclaimer">
-#         ⚠️ <b>Disclaimer:</b> Ini adalah playground analytic. Hasil analisis dapat berbeda tergantung data aktual.<br>
-#         Anda bisa filter, visualisasi, dan download hasil data!
-#     </div>
-# """, unsafe_allow_html=True)
+st.markdown("""
+    <style>
+        .centered-title {text-align: center; font-size: 2.1em; font-weight: bold; padding-bottom: 0.2em;}
+        .disclaimer {text-align: center; color: #f2bc4c; font-size: 1.05em; padding-bottom: 1.5em;}
+    </style>
+    <div class="centered-title">📊 Customer Service Analytic Playground</div>
+    # <div class="disclaimer">
+    #     ⚠️ <b>Disclaimer:</b> Ini adalah playground analytic. Hasil analisis dapat berbeda tergantung data aktual.<br>
+    #     Anda bisa filter, visualisasi, dan download hasil data!
+    # </div>
+""", unsafe_allow_html=True)
 
 # === Fungsi natural sort untuk kategori dsb ===
 def natural_sort_key(s):
